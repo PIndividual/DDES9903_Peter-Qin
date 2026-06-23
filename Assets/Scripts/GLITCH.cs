@@ -48,7 +48,7 @@ public class DecoupledGlitcher : MonoBehaviour
         // Time.deltaTime 是上一帧到这一帧所花费的时间（通常是 0.016 秒左右）
         timer += Time.deltaTime;
         Debug.Log("Timer: " + timer);
-        Debug.Log("Next Glitch: " + currentTargetInterval);
+        //Debug.Log("Next Glitch: " + currentTargetInterval);
         // 2. 判断累加的时间是否达到了我们设定的“间隔阈值”
         if (timer >= currentTargetInterval)
         {
