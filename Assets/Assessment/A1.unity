@@ -3179,11 +3179,32 @@ Transform:
   - {fileID: 416225641}
   m_Father: {fileID: 1833517247}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &379891749 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2077189854255037248, guid: df63664dbdd376b4298726771ab129fa, type: 3}
+  m_PrefabInstance: {fileID: 770034791}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &379891750 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2081082215184725289, guid: df63664dbdd376b4298726771ab129fa, type: 3}
   m_PrefabInstance: {fileID: 770034791}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &379891753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379891749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 845ffd07629a56842966021da5657b45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WakeUpEffect
+  blackScreen: {fileID: 435742531}
+  fadeTime: 5
+  waitTime: 5
+  targetAlpha: 0.5
 --- !u!1001 &393108268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6455,6 +6476,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: EZPZ Player Flat Screen WASD
       objectReference: {fileID: 0}
+    - target: {fileID: 2077189854255037248, guid: df63664dbdd376b4298726771ab129fa, type: 3}
+      propertyPath: m_Name
+      value: UICanvas - Eyes open
+      objectReference: {fileID: 0}
+    - target: {fileID: 2077189854255037248, guid: df63664dbdd376b4298726771ab129fa, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5477663902695651912, guid: df63664dbdd376b4298726771ab129fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.076
@@ -6511,6 +6540,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1534723728633843283, guid: df63664dbdd376b4298726771ab129fa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 770034801}
+    - targetCorrespondingSourceObject: {fileID: 2077189854255037248, guid: df63664dbdd376b4298726771ab129fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 379891753}
   m_SourcePrefab: {fileID: 100100000, guid: df63664dbdd376b4298726771ab129fa, type: 3}
 --- !u!4 &770034792 stripped
 Transform:
@@ -9343,7 +9375,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Drop the notebook
+  m_text: 'Drop the notebook & head
+
+    to the dining table'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -17340,6 +17374,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 379891749}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
   onPrimaryInteractLift:
     m_PersistentCalls:
