@@ -28,7 +28,7 @@ public class Countdown_function : MonoBehaviour
                 isActivated = false;
             }
         }
-        Debug.Log(timer);
+        //Debug.Log(timer);
         //Debug.Log(isActivated);
     }
      public void ActivateCountdown()
