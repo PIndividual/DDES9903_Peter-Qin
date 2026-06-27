@@ -3203,7 +3203,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WakeUpEffect
   blackScreen: {fileID: 435742531}
   fadeTime: 5
-  waitTime: 5
+  waitTime: 3
   targetAlpha: 0.5
 --- !u!1001 &393108268
 PrefabInstance:
@@ -6482,7 +6482,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2077189854255037248, guid: df63664dbdd376b4298726771ab129fa, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5477663902695651912, guid: df63664dbdd376b4298726771ab129fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6490,7 +6490,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5477663902695651912, guid: df63664dbdd376b4298726771ab129fa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.242
+      value: 0.938
       objectReference: {fileID: 0}
     - target: {fileID: 5477663902695651912, guid: df63664dbdd376b4298726771ab129fa, type: 3}
       propertyPath: m_LocalPosition.z
