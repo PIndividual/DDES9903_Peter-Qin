@@ -1,16 +1,19 @@
 
 using UnityEngine;
 
-public class DecoupledGlitcher : MonoBehaviour
+public class Glitch : MonoBehaviour
 {
+    [Header("总开关 (Master Switch)")]
+    [Tooltip("控制整个故障效果的开启与关闭。其他脚本可以通过修改这个值来控制它。")]
+    public bool isGlitching = true;
+
     [Header("0. 随机时间控制 (Random Timing)")]
     [Tooltip("最小更新间隔（秒），决定了最快能闪多快")]
-    public float minUpdateInterval = 0.02f; 
+    public float minUpdateInterval = 0.02f;
     [Tooltip("最大更新间隔（秒），决定了最长能卡顿多久")]
-    public float maxUpdateInterval = 0.25f; 
-    
+    public float maxUpdateInterval = 0.25f;
+
     private float timer = 0f;
-    // 新增：记录当前这一轮需要等待的具体时间
     private float currentTargetInterval;
 
     [Header("1. 位移崩坏设置 (Position Glitch)")]
@@ -44,8 +47,26 @@ public class DecoupledGlitcher : MonoBehaviour
 
     void Update()
     {
+        if (!isGlitching)
+        {
+            if (transform.localPosition != originalPosition)
+            {
+                transform.localPosition = originalPosition;
+            }
+            if (transform.localRotation != originalRotation)
+            {
+                transform.localRotation = originalRotation;
+            }
+            if (meshRenderer != null && !meshRenderer.enabled)
+            {
+                meshRenderer.enabled = true;
+            }
+            // 重置计时器，确保下次开启时从头开始计算
+            timer = 0f;
 
-        // Time.deltaTime 是上一帧到这一帧所花费的时间（通常是 0.016 秒左右）
+            // 跳过后续所有的故障随机逻辑
+            return;
+        } // if (!isGlitching) 结束
         timer += Time.deltaTime;
         Debug.Log("Timer: " + timer);
         //Debug.Log("Next Glitch: " + currentTargetInterval);
