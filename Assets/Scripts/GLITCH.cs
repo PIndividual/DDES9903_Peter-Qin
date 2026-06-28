@@ -68,7 +68,7 @@ public class Glitch : MonoBehaviour
             return;
         } // if (!isGlitching) 结束
         timer += Time.deltaTime;
-        Debug.Log("Timer: " + timer);
+        //Debug.Log("Timer: " + timer);
         //Debug.Log("Next Glitch: " + currentTargetInterval);
         // 2. 判断累加的时间是否达到了我们设定的“间隔阈值”
         if (timer >= currentTargetInterval)
