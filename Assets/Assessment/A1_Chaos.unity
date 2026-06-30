@@ -4599,9 +4599,9 @@ MonoBehaviour:
   onHoverExit:
     m_PersistentCalls:
       m_Calls: []
-  hoverText: Check diary
+  hoverText: Check d!?ry
   customTouchDistance: -1
-  heldText: 
+  heldText: ???
   restrictSecondaryToHeldOnly: 0
   customHoldDistance: -1
   eventRelay: {fileID: 0}
