@@ -3465,9 +3465,9 @@ MonoBehaviour:
   isGlitching: 1
   minUpdateInterval: 0.02
   maxUpdateInterval: 0.25
-  positionProbability: 0.308
+  positionProbability: 0.076
   maxDisplacement: 0.2
-  rotationProbability: 0.403
+  rotationProbability: 0.118
   maxRotationAngle: 20
   flickerProbability: 0.503
 --- !u!1001 &475447893
@@ -7296,9 +7296,9 @@ MonoBehaviour:
   isGlitching: 1
   minUpdateInterval: 0.02
   maxUpdateInterval: 0.25
-  positionProbability: 0.308
+  positionProbability: 0.134
   maxDisplacement: 0.2
-  rotationProbability: 0.403
+  rotationProbability: 0.103
   maxRotationAngle: 20
   flickerProbability: 0.503
 --- !u!1 &838339614 stripped
@@ -10717,9 +10717,9 @@ MonoBehaviour:
   isGlitching: 1
   minUpdateInterval: 0.02
   maxUpdateInterval: 0.25
-  positionProbability: 0.308
+  positionProbability: 0.124
   maxDisplacement: 0.2
-  rotationProbability: 0.403
+  rotationProbability: 0.176
   maxRotationAngle: 20
   flickerProbability: 0.503
 --- !u!1 &1460826193
@@ -14192,6 +14192,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1895931481}
+        m_TargetAssemblyTypeName: Countdown_function, Assembly-CSharp
+        m_MethodName: ActivateCountdown
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1895931481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14205,7 +14217,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Countdown_function
   countdownTime: 5
-  isActivated: 1
+  isActivated: 0
   onCountdownFinished:
     m_PersistentCalls:
       m_Calls:
