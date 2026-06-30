@@ -7333,7 +7333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47097c43dea914645aaa9fde17417a08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Countdown_function
-  countdownTime: 16
+  countdownTime: 8.5
   isActivated: 1
   onCountdownFinished:
     m_PersistentCalls:
@@ -20238,7 +20238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayAndTrigger
   myAudioSource: {fileID: 770034793}
-  myMonologue: {fileID: 8300000, guid: 6a9edad332ed2f44cacf7b80955dd7a5, type: 3}
+  myMonologue: {fileID: 8300000, guid: bdb0e57ea0c9aed4db6f1dd732abd7a4, type: 3}
   onAudioFinished:
     m_PersistentCalls:
       m_Calls:
