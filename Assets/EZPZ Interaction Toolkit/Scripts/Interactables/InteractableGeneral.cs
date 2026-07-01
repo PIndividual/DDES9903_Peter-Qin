@@ -52,7 +52,17 @@ public class InteractableGeneral : MonoBehaviour, IPointerDownHandler, IPointerE
     public UnityEvent onSecondaryInteractLiftBackground;
     public UnityEvent onHoverEnterBackground;
     public UnityEvent onHoverExitBackground;
-    
+
+    public void ChangeHoverText (string newtext)
+    {
+
+        Debug.Log("SLDKFJKSD: " + newtext);
+        hoverText = newtext;
+
+        Debug.Log("HOVER TEXT: " + hoverText);  
+    }
+
+
 
     private void Start()
     {
@@ -63,6 +73,8 @@ public class InteractableGeneral : MonoBehaviour, IPointerDownHandler, IPointerE
         onSecondaryInteractLift.AddListener(OnSecondaryInteractLiftBackground);
         onHoverEnter.AddListener(OnHoverEnterBackground);
         onHoverExit.AddListener(OnHoverExitBackground);
+
+        
 
         //link events to event relay object
         if (eventRelay != null)
