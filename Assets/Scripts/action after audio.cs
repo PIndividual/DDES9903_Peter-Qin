@@ -4,11 +4,11 @@ using System.Collections;
 
 public class PlayAndTrigger : MonoBehaviour
 {
-    [Header("音频设置")]
+    [Header("Audio Settings")]
     public AudioSource myAudioSource;  // 用来播放声音的组件
     public AudioClip myMonologue;      // 你要播放的独白音频文件
 
-    [Header("播放结束后触发的功能")]
+    [Header("Action After Playback")]
     public UnityEvent onAudioFinished; // 在 Inspector 面板里可视化配置的自定义事件
 
     // 这个方法可以被场景里的触发器（比如你走进某个区域）调用
@@ -31,7 +31,7 @@ public class PlayAndTrigger : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("音频组件或音频文件没配置哦！");
+            Debug.LogWarning("Audio source or audio clip not configured!");
             yield break; // 如果没配置就直接退出
         }
 
