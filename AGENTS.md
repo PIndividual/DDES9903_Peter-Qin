@@ -2,7 +2,7 @@
 - Project name: DDES9903_Peter-Qin
 - Unity version: Unity 6000.3.8f1
 - Active game object:
-  - Name: redemption zone
+  - Name: Seat move back
   - Tag: Untagged
   - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->
