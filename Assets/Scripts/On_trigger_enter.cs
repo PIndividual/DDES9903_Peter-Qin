@@ -4,6 +4,7 @@ using UnityEngine.Events;
 public class On_trigger_enter : MonoBehaviour
 {
     public UnityEvent WhatToDo;
+    private bool hasTriggered = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -16,8 +17,13 @@ public class On_trigger_enter : MonoBehaviour
         
     }
     private void OnTriggerEnter(Collider other)
+
     {
+        if (!hasTriggered)
+        { 
         //Debug.Log("Trigger entered by " + other.name);
         WhatToDo.Invoke();
+        hasTriggered = true;
+        }
     }
 }

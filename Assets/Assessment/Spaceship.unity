@@ -3446,7 +3446,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayAndTrigger
   myAudioSource: {fileID: 957900801}
-  myMonologue: {fileID: 8300000, guid: 5de3f4b11556a0d46a31b8e943c3894e, type: 3}
+  myMonologue: {fileID: 8300000, guid: 27010c0a22e26ab4a9b371a98c45f019, type: 3}
   onAudioFinished:
     m_PersistentCalls:
       m_Calls:
