@@ -105,7 +105,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WritingPencil
+  m_Name: Pencil
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Pick Up
@@ -147,7 +147,7 @@ AnimatorStateMachine:
     m_Position: {x: 290, y: 130, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 7972461676734023254}
-    m_Position: {x: 653.29895, y: 39.15226, z: 0}
+    m_Position: {x: 650, y: 40, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3747168855902623028}
     m_Position: {x: 670, y: 130, z: 0}
