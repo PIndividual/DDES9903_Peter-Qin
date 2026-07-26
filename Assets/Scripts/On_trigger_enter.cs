@@ -21,7 +21,7 @@ public class On_trigger_enter : MonoBehaviour
     {
         if (!hasTriggered)
         { 
-        //Debug.Log("Trigger entered by " + other.name);
+        Debug.Log("Trigger entered by " + other.name);
         WhatToDo.Invoke();
         hasTriggered = true;
         }
