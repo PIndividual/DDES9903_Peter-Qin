@@ -2210,8 +2210,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Fade_to_other_colour
   targetScreen: {fileID: 647283128}
-  fadeTime: 3
-  waitTime: 3
+  fadeTime: 5
+  waitTime: 4
   targetAlpha: 1
 --- !u!1 &390812882
 GameObject:
@@ -6743,7 +6743,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: ALL Black
+          m_StringArgument: Day 1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1053242927

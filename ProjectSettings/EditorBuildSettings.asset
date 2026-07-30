@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Assessment/ALL Black.unity
     guid: aac63edd9282ad14984418426610b264
+  - enabled: 1
+    path: Assets/Assessment/Endings/Infinite loops/Day 1.unity
+    guid: 1134c17fe81fe0646b05891aa9fa77cb
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 3c28928f4ba463b408fa3dad31f078ec, type: 2}
