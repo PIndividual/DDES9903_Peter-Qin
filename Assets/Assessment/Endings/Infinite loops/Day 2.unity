@@ -742,7 +742,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 22651413}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f420ef2d7e56ee84ca771ef9061323a1, type: 3}
   m_Name: 
@@ -750,7 +750,7 @@ MonoBehaviour:
   isGlitching: 1
   minUpdateInterval: 0.02
   maxUpdateInterval: 0.25
-  positionProbability: 0.227
+  positionProbability: 0
   maxDisplacement: 0.2
   rotationProbability: 0
   maxRotationAngle: 20
@@ -5305,6 +5305,27 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e4c6e32163941c04f8ea85bf4af4a74c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1313012897}
+    - targetCorrespondingSourceObject: {fileID: 635547659545568360, guid: e4c6e32163941c04f8ea85bf4af4a74c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1835055972}
+    - targetCorrespondingSourceObject: {fileID: -2496332547428783936, guid: e4c6e32163941c04f8ea85bf4af4a74c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1317988420}
+    - targetCorrespondingSourceObject: {fileID: -9200210366883936642, guid: e4c6e32163941c04f8ea85bf4af4a74c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 707256428}
+    - targetCorrespondingSourceObject: {fileID: 6657560127643677590, guid: e4c6e32163941c04f8ea85bf4af4a74c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 458188117}
+    - targetCorrespondingSourceObject: {fileID: -6452266432751415832, guid: e4c6e32163941c04f8ea85bf4af4a74c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 921876473}
+    - targetCorrespondingSourceObject: {fileID: -3286910004361259421, guid: e4c6e32163941c04f8ea85bf4af4a74c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1021421344}
+    - targetCorrespondingSourceObject: {fileID: -6687504106412162394, guid: e4c6e32163941c04f8ea85bf4af4a74c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1646638298}
   m_SourcePrefab: {fileID: 100100000, guid: e4c6e32163941c04f8ea85bf4af4a74c, type: 3}
 --- !u!4 &401693913 stripped
 Transform:
@@ -6364,6 +6385,31 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce5851c8855f6184698e684b11c52809, type: 3}
+--- !u!1 &458188114 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6657560127643677590, guid: e4c6e32163941c04f8ea85bf4af4a74c, type: 3}
+  m_PrefabInstance: {fileID: 393108268}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &458188117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458188114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f420ef2d7e56ee84ca771ef9061323a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Glitch
+  isGlitching: 1
+  minUpdateInterval: 0.02
+  maxUpdateInterval: 0.25
+  positionProbability: 0.05
+  maxDisplacement: 0.2
+  rotationProbability: 0.05
+  maxRotationAngle: 20
+  flickerProbability: 0.05
 --- !u!1001 &466342536
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8898,6 +8944,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 391995028}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &707256425 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -9200210366883936642, guid: e4c6e32163941c04f8ea85bf4af4a74c, type: 3}
+  m_PrefabInstance: {fileID: 393108268}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &707256428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707256425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f420ef2d7e56ee84ca771ef9061323a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Glitch
+  isGlitching: 1
+  minUpdateInterval: 0.02
+  maxUpdateInterval: 0.25
+  positionProbability: 0.05
+  maxDisplacement: 0.2
+  rotationProbability: 0.05
+  maxRotationAngle: 20
+  flickerProbability: 0.05
 --- !u!1001 &712193732
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9311,7 +9382,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 712193734}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f420ef2d7e56ee84ca771ef9061323a1, type: 3}
   m_Name: 
@@ -9319,7 +9390,7 @@ MonoBehaviour:
   isGlitching: 1
   minUpdateInterval: 0.02
   maxUpdateInterval: 0.25
-  positionProbability: 0.227
+  positionProbability: 0
   maxDisplacement: 0.2
   rotationProbability: 0
   maxRotationAngle: 20
@@ -12497,6 +12568,31 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb0f5956ab6067a4c9daabcd3f178106, type: 3}
+--- !u!1 &921876470 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6452266432751415832, guid: e4c6e32163941c04f8ea85bf4af4a74c, type: 3}
+  m_PrefabInstance: {fileID: 393108268}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &921876473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921876470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f420ef2d7e56ee84ca771ef9061323a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Glitch
+  isGlitching: 1
+  minUpdateInterval: 0.02
+  maxUpdateInterval: 0.25
+  positionProbability: 0.05
+  maxDisplacement: 0.2
+  rotationProbability: 0.05
+  maxRotationAngle: 20
+  flickerProbability: 0.05
 --- !u!1001 &923569790
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13567,6 +13663,31 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5700643129348156977, guid: 249ebbaae21002c499f1c8a7925c1905, type: 3}
   m_PrefabInstance: {fileID: 1020314245}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1021421341 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3286910004361259421, guid: e4c6e32163941c04f8ea85bf4af4a74c, type: 3}
+  m_PrefabInstance: {fileID: 393108268}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1021421344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021421341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f420ef2d7e56ee84ca771ef9061323a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Glitch
+  isGlitching: 1
+  minUpdateInterval: 0.02
+  maxUpdateInterval: 0.25
+  positionProbability: 0.05
+  maxDisplacement: 0.2
+  rotationProbability: 0.05
+  maxRotationAngle: 20
+  flickerProbability: 0.05
 --- !u!1001 &1032028593
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17080,7 +17201,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1257356244}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f420ef2d7e56ee84ca771ef9061323a1, type: 3}
   m_Name: 
@@ -17088,7 +17209,7 @@ MonoBehaviour:
   isGlitching: 1
   minUpdateInterval: 0.02
   maxUpdateInterval: 0.25
-  positionProbability: 0.227
+  positionProbability: 0
   maxDisplacement: 0.2
   rotationProbability: 0
   maxRotationAngle: 20
@@ -17551,6 +17672,31 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!1 &1317988417 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2496332547428783936, guid: e4c6e32163941c04f8ea85bf4af4a74c, type: 3}
+  m_PrefabInstance: {fileID: 393108268}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1317988420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317988417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f420ef2d7e56ee84ca771ef9061323a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Glitch
+  isGlitching: 1
+  minUpdateInterval: 0.02
+  maxUpdateInterval: 0.25
+  positionProbability: 0.05
+  maxDisplacement: 0.2
+  rotationProbability: 0.05
+  maxRotationAngle: 20
+  flickerProbability: 0.05
 --- !u!1 &1320460298
 GameObject:
   m_ObjectHideFlags: 0
@@ -18530,6 +18676,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1392689594}
+        m_TargetAssemblyTypeName: AudioFader, Assembly-CSharp
+        m_MethodName: FadeOutAudio
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 770034793}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 2131151758}
         m_TargetAssemblyTypeName: PlayAndTrigger, Assembly-CSharp
@@ -21752,6 +21910,31 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1646638295 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6687504106412162394, guid: e4c6e32163941c04f8ea85bf4af4a74c, type: 3}
+  m_PrefabInstance: {fileID: 393108268}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1646638298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646638295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f420ef2d7e56ee84ca771ef9061323a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Glitch
+  isGlitching: 1
+  minUpdateInterval: 0.02
+  maxUpdateInterval: 0.25
+  positionProbability: 0.05
+  maxDisplacement: 0.2
+  rotationProbability: 0.05
+  maxRotationAngle: 20
+  flickerProbability: 0.05
 --- !u!1001 &1647001556
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24280,6 +24463,31 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1835055969 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 635547659545568360, guid: e4c6e32163941c04f8ea85bf4af4a74c, type: 3}
+  m_PrefabInstance: {fileID: 393108268}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1835055972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835055969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f420ef2d7e56ee84ca771ef9061323a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Glitch
+  isGlitching: 1
+  minUpdateInterval: 0.02
+  maxUpdateInterval: 0.25
+  positionProbability: 0.05
+  maxDisplacement: 0.2
+  rotationProbability: 0.05
+  maxRotationAngle: 20
+  flickerProbability: 0.05
 --- !u!4 &1859638773 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4386860055663154492, guid: e8fb688e99fc28743b38328efa46316d, type: 3}
@@ -25504,6 +25712,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1979256135}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 22651413}
@@ -25558,18 +25778,6 @@ MonoBehaviour:
         m_CallState: 2
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1979256135}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 2081597906}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -29430,7 +29638,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2081597906}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f420ef2d7e56ee84ca771ef9061323a1, type: 3}
   m_Name: 
@@ -29438,7 +29646,7 @@ MonoBehaviour:
   isGlitching: 1
   minUpdateInterval: 0.02
   maxUpdateInterval: 0.25
-  positionProbability: 0.227
+  positionProbability: 0
   maxDisplacement: 0.2
   rotationProbability: 0
   maxRotationAngle: 20
@@ -29933,6 +30141,90 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: PlayAndTrigger, Assembly-CSharp
         m_MethodName: StartPlaying
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1835055972}
+        m_TargetAssemblyTypeName: Glitch, Assembly-CSharp
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1317988420}
+        m_TargetAssemblyTypeName: Glitch, Assembly-CSharp
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 707256428}
+        m_TargetAssemblyTypeName: Glitch, Assembly-CSharp
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 458188117}
+        m_TargetAssemblyTypeName: Glitch, Assembly-CSharp
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 921876473}
+        m_TargetAssemblyTypeName: Glitch, Assembly-CSharp
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1021421344}
+        m_TargetAssemblyTypeName: Glitch, Assembly-CSharp
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1646638298}
+        m_TargetAssemblyTypeName: Glitch, Assembly-CSharp
+        m_MethodName: set_enabled
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
