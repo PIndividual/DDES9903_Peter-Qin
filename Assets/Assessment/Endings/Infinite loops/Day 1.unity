@@ -18597,7 +18597,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: ALL Black
+          m_StringArgument: Day 2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1001 &1647001556
@@ -20995,7 +20995,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1898686394
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23279,7 +23279,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1999931625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25948,7 +25948,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9b016bc690aab3b439a90b78c66b2a25, type: 2}
+  - {fileID: 2100000, guid: d6596be0153fd4f4c919fabb986b0ca6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
