@@ -2114,7 +2114,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Oxygen Level 10%
+  m_text: Oxygen Level 6%
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b22293a4bae56fd45989a9852f68958f, type: 2}
   m_sharedMaterial: {fileID: 3432532980676051971, guid: b22293a4bae56fd45989a9852f68958f, type: 2}
@@ -6203,7 +6203,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Day 501
+  m_text: Day ###
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b22293a4bae56fd45989a9852f68958f, type: 2}
   m_sharedMaterial: {fileID: 3432532980676051971, guid: b22293a4bae56fd45989a9852f68958f, type: 2}
@@ -10062,7 +10062,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 3995751d591ac714c9f5f35bac258bcd, type: 3}
+  m_Resource: {fileID: 8300000, guid: ccaf075139903dc4f871b94e2ef62b41, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -10166,6 +10166,18 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1833517248}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 2082990604}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
         m_Mode: 1
@@ -12256,7 +12268,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayAndTrigger
   myAudioSource: {fileID: 770034793}
-  myMonologue: {fileID: 8300000, guid: 61b676fd9c1c53743a0316bf428e53cb, type: 3}
+  myMonologue: {fileID: 8300000, guid: b54c8ab3c6fdd5e48823e33235641d08, type: 3}
   onAudioFinished:
     m_PersistentCalls:
       m_Calls:
@@ -12369,7 +12381,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TMPTypewriter
   textMesh: {fileID: 1993455701}
-  duration: 13.5
+  duration: 20
 --- !u!1001 &899910277
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16323,7 +16335,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: f40c4b6d691e1064091010eb004385c8, type: 2}
+  sharedProfile: {fileID: 11400000, guid: 3980e5c2dcb84164d92ca2eb1368c496, type: 2}
 --- !u!4 &1167401566
 Transform:
   m_ObjectHideFlags: 0
@@ -18014,7 +18026,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1320460299
 Transform:
   m_ObjectHideFlags: 0
@@ -24781,7 +24793,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 07bec9385a546474d92f527876916582, type: 3}
+  m_Resource: {fileID: 8300000, guid: 61d4b7802d5d70c45bfb21a61f7dc4ca, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -27264,10 +27276,24 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Day 2... n0, D@y 1'. I am J3ssie. The w3ather is b3au##### t0day, the apple
-    pie sme??s like... <color=#FF0000><size=110%>0xyg3n</size></color>. I am n0t
-    in sp@ce, and I am NOT trapped in a c0ld m3tal c0ffin. It's wriXXen d0wn... As
-    l0ng as I f0rce it down, it's a!! r3al. It H@S t0 be r3al
+  m_text: '<color=#FF0000><b>//SYSTEM_FATAL_ERROR//</b></color>
+
+    Day 1, I @m
+    <size=130%><color=#FF0000><b>N0T</b></color></size> J3ssie!
+
+    The sky is
+    <color=#FF0000><b>D3@D</b></color>, the pie is <color=#00FFFF>T0XIC</color>!
+
+    I
+    C@N''T BR3@TH3!! <size=140%><color=#FF0000><b>O2 = 6%</b></color></size>
+
+    IT
+    IS <size=120%><b><u>N0T R3@L!</u></b></size>
+
+    <color=#FF0000><b>SYSTEM_FATAL_ERROR
+    SYSTEM_FATAL_ERROR SYSTEM_FATAL_ERROR SYSTEM_FATAL_ERROR SYSTEM_FATAL_ERROR SYSTEM_FATAL_ERROR
+    SYSTEM_FATAL_ERROR SYSTEM_FATAL_ERROR SYSTEM_FATAL_ERROR SYSTEM_FATAL_ERROR SYSTEM_FATAL_ERROR
+    SYSTEM_FATAL_ERROR SYSTEM_FATAL_ERROR SYSTEM_FATAL_ERROR SYSTEM_FATAL_ERROR</b></color>'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b22293a4bae56fd45989a9852f68958f, type: 2}
   m_sharedMaterial: {fileID: 3432532980676051971, guid: b22293a4bae56fd45989a9852f68958f, type: 2}
@@ -30107,6 +30133,135 @@ MonoBehaviour:
   rotationProbability: 0
   maxRotationAngle: 20
   flickerProbability: 0.484
+--- !u!1 &2082990603
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2082990605}
+  - component: {fileID: 2082990604}
+  m_Layer: 0
+  m_Name: Initial BGM
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &2082990604
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082990603}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 8161315e82a2145438059b8b9d73f9d9, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.65
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &2082990605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082990603}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.016, y: 1.74877, z: -2.15612}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2084263773
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32929,6 +33084,7 @@ SceneRoots:
   - {fileID: 1570839411}
   - {fileID: 28710884}
   - {fileID: 1644964155}
+  - {fileID: 2082990605}
   - {fileID: 190055553}
   - {fileID: 1918257355}
   - {fileID: 1979256134}
