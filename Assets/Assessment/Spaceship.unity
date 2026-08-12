@@ -4845,7 +4845,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: ALL Black
+          m_StringArgument: Survive
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &616648030
@@ -4870,7 +4870,7 @@ MonoBehaviour:
         m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 18525a3745010484cbe5037b63a6faf6, type: 3}
+          m_ObjectArgument: {fileID: 8300000, guid: 8bf5f8109c48b854081303ea5beadd41, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -7793,7 +7793,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayAndTrigger
   myAudioSource: {fileID: 1203938212}
-  myMonologue: {fileID: 8300000, guid: 0c85d23a8a0b94c45a1b13b8c9586373, type: 3}
+  myMonologue: {fileID: 8300000, guid: c8ecd093844dcb441afe067225533b4f, type: 3}
   onAudioFinished:
     m_PersistentCalls:
       m_Calls:
@@ -8257,7 +8257,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: ALL Black
+          m_StringArgument: Survive
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1246717623
@@ -10017,7 +10017,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayAndTrigger
   myAudioSource: {fileID: 1502729486}
-  myMonologue: {fileID: 8300000, guid: e92bc59d8787dd148b24a3e2307bbf7b, type: 3}
+  myMonologue: {fileID: 8300000, guid: e3523a11d7064aa42875b3e2d92d3de7, type: 3}
   onAudioFinished:
     m_PersistentCalls:
       m_Calls:
@@ -17638,7 +17638,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayAndTrigger
   myAudioSource: {fileID: 1930413131}
-  myMonologue: {fileID: 8300000, guid: ab28f27fdcb545c42b5b2f559f46e83d, type: 3}
+  myMonologue: {fileID: 8300000, guid: 24f5b35abd30db24d919034a9800ad19, type: 3}
   onAudioFinished:
     m_PersistentCalls:
       m_Calls:
