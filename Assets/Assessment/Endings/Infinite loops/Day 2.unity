@@ -5169,6 +5169,22 @@ MonoBehaviour:
   fadeTime: 4
   waitTime: 0
   targetAlpha: 1
+--- !u!114 &379891755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379891749}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b173ebd91efd954fad77d6362b080d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Fade_to_other_colour
+  targetScreen: {fileID: 1235299578}
+  fadeTime: 4
+  waitTime: 0
+  targetAlpha: 1
 --- !u!1 &391995027
 GameObject:
   m_ObjectHideFlags: 0
@@ -10265,6 +10281,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2081082215184725289, guid: df63664dbdd376b4298726771ab129fa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1798011158}
+    - targetCorrespondingSourceObject: {fileID: 2081082215184725289, guid: df63664dbdd376b4298726771ab129fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1235299577}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1534723728633843283, guid: df63664dbdd376b4298726771ab129fa, type: 3}
       insertIndex: -1
@@ -10278,6 +10297,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2077189854255037248, guid: df63664dbdd376b4298726771ab129fa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 379891754}
+    - targetCorrespondingSourceObject: {fileID: 2077189854255037248, guid: df63664dbdd376b4298726771ab129fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 379891755}
   m_SourcePrefab: {fileID: 100100000, guid: df63664dbdd376b4298726771ab129fa, type: 3}
 --- !u!4 &770034792 stripped
 Transform:
@@ -16617,6 +16639,81 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eaa6dd1ffb96c124fbd198ee4d6f4296, type: 3}
+--- !u!1 &1235299576
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1235299577}
+  - component: {fileID: 1235299579}
+  - component: {fileID: 1235299578}
+  m_Layer: 0
+  m_Name: Black
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1235299577
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235299576}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 379891750}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1235299578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235299576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1235299579
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235299576}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1237033462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21809,7 +21906,7 @@ MonoBehaviour:
           m_StringArgument: Sleep
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 379891754}
+      - m_Target: {fileID: 379891755}
         m_TargetAssemblyTypeName: Fade_to_other_colour, Assembly-CSharp
         m_MethodName: set_enabled
         m_Mode: 6
