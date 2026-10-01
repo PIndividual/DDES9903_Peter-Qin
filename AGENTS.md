@@ -2,7 +2,7 @@
 - Project name: DDES9903_Peter-Qin
 - Unity version: Unity 6000.3.8f1
 - Active game object:
-  - Name: VR Fade Sphere
+  - Name: Switch
   - Tag: Untagged
-  - Layer: Ignore Raycast
+  - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->

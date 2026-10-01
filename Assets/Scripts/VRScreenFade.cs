@@ -3,7 +3,10 @@ using System.Collections;
 
 public class VRScreenFade : MonoBehaviour
 {
+    // ==================================================
     // 游戏开始时的 Fade 类型
+    // ==================================================
+
     public enum StartFadeMode
     {
         None,
@@ -11,6 +14,10 @@ public class VRScreenFade : MonoBehaviour
         FromWhite
     }
 
+
+    // ==================================================
+    // Inspector 设置
+    // ==================================================
 
     [Header("基础设置")]
 
@@ -37,6 +44,15 @@ public class VRScreenFade : MonoBehaviour
     public float openTargetAlpha = 0f;
 
 
+    [Header("完全睁眼设置")]
+
+    [Tooltip("完全睁眼开始前等待多久")]
+    public float fullyOpenWaitTime = 0f;
+
+    [Tooltip("从当前 Alpha 完全淡到透明需要多久")]
+    public float fullyOpenFadeTime = 2f;
+
+
     [Header("闭眼 / 淡出设置")]
 
     [Tooltip("闭眼开始前等待多久")]
@@ -50,31 +66,48 @@ public class VRScreenFade : MonoBehaviour
     public float closeTargetAlpha = 1f;
 
 
+    // ==================================================
+    // 内部变量
+    // ==================================================
+
     private Material fadeMaterial;
+
     private Coroutine currentFade;
 
+
+    // ==================================================
+    // Awake
+    // ==================================================
 
     private void Awake()
     {
         // 如果 Inspector 没有手动指定 Renderer，
-        // 就尝试获取这个 GameObject 自己的 Renderer。
+        // 就自动获取当前 GameObject 上的 Renderer。
         if (fadeRenderer == null)
         {
             fadeRenderer = GetComponent<Renderer>();
         }
 
+
         if (fadeRenderer != null)
         {
-            // 创建独立 Material 实例，
-            // 避免修改 Project 里的原始 Material。
+            // 创建一个独立的 Material 实例。
+            // 这样运行时修改颜色和 Alpha
+            // 不会影响 Project 里的原始材质。
             fadeMaterial = fadeRenderer.material;
         }
         else
         {
-            Debug.LogWarning("VRScreenFade 找不到 Renderer！");
+            Debug.LogWarning(
+                "VRScreenFade 找不到 Renderer！请把 VR Fade Sphere 的 Mesh Renderer 拖到 Fade Renderer。"
+            );
         }
     }
 
+
+    // ==================================================
+    // Start
+    // ==================================================
 
     private void Start()
     {
@@ -84,9 +117,11 @@ public class VRScreenFade : MonoBehaviour
                 FadeFromBlack();
                 break;
 
+
             case StartFadeMode.FromWhite:
                 FadeFromWhite();
                 break;
+
 
             case StartFadeMode.None:
                 break;
@@ -122,6 +157,30 @@ public class VRScreenFade : MonoBehaviour
             openTargetAlpha,
             openWaitTime,
             openFadeTime
+        );
+    }
+
+
+    // ==================================================
+    // 从当前状态继续完全睁眼
+    // 当前 Alpha -> 0
+    // ==================================================
+
+    public void FadeToClear()
+    {
+        if (fadeMaterial == null)
+            return;
+
+
+        Color currentColor = fadeMaterial.color;
+
+
+        StartNewFade(
+            currentColor,
+            currentColor.a,
+            0f,
+            fullyOpenWaitTime,
+            fullyOpenFadeTime
         );
     }
 
@@ -167,16 +226,20 @@ public class VRScreenFade : MonoBehaviour
         if (fadeMaterial == null)
             return;
 
+
         StopCurrentFade();
 
+
         Color color = fadeMaterial.color;
+
         color.a = 0f;
+
         fadeMaterial.color = color;
     }
 
 
     // ==================================================
-    // 启动 Fade
+    // 启动新的 Fade
     // ==================================================
 
     private void StartNewFade(
@@ -190,7 +253,9 @@ public class VRScreenFade : MonoBehaviour
         if (fadeMaterial == null)
             return;
 
+
         StopCurrentFade();
+
 
         currentFade = StartCoroutine(
             FadeRoutine(
@@ -216,30 +281,47 @@ public class VRScreenFade : MonoBehaviour
         float fadeTime
     )
     {
-        // 先设置 Fade 的颜色以及开始 Alpha
+        // --------------------------------------------------
+        // 设置开始颜色和 Alpha
+        // --------------------------------------------------
+
         Color color = fadeColor;
+
         color.a = startAlpha;
+
         fadeMaterial.color = color;
 
 
-        // 等待
+        // --------------------------------------------------
+        // Fade 前等待
+        // --------------------------------------------------
+
         if (waitTime > 0f)
         {
             yield return new WaitForSecondsRealtime(waitTime);
         }
 
 
-        // 如果 Fade 时间为 0，
-        // 就直接跳到最终状态。
+        // --------------------------------------------------
+        // 如果 Fade 时间为 0
+        // 直接跳到最终状态
+        // --------------------------------------------------
+
         if (fadeTime <= 0f)
         {
             color.a = targetAlpha;
+
             fadeMaterial.color = color;
 
             currentFade = null;
+
             yield break;
         }
 
+
+        // --------------------------------------------------
+        // 正式开始 Fade
+        // --------------------------------------------------
 
         float timer = 0f;
 
@@ -248,12 +330,13 @@ public class VRScreenFade : MonoBehaviour
         {
             timer += Time.unscaledDeltaTime;
 
+
             float progress = Mathf.Clamp01(
                 timer / fadeTime
             );
 
 
-            // 让 Fade 开头和结尾更柔和
+            // SmoothStep 让开头和结尾更柔和
             progress = Mathf.SmoothStep(
                 0f,
                 1f,
@@ -269,6 +352,7 @@ public class VRScreenFade : MonoBehaviour
 
 
             color.a = alpha;
+
             fadeMaterial.color = color;
 
 
@@ -276,8 +360,12 @@ public class VRScreenFade : MonoBehaviour
         }
 
 
-        // 确保最终精确到达目标值
+        // --------------------------------------------------
+        // 确保最终 Alpha 精确到目标值
+        // --------------------------------------------------
+
         color.a = targetAlpha;
+
         fadeMaterial.color = color;
 
 
@@ -294,12 +382,13 @@ public class VRScreenFade : MonoBehaviour
         if (fadeMaterial == null)
             return 0f;
 
+
         return fadeMaterial.color.a;
     }
 
 
     // ==================================================
-    // 停止正在进行的 Fade
+    // 停止当前正在进行的 Fade
     // ==================================================
 
     private void StopCurrentFade()
@@ -307,6 +396,7 @@ public class VRScreenFade : MonoBehaviour
         if (currentFade != null)
         {
             StopCoroutine(currentFade);
+
             currentFade = null;
         }
     }

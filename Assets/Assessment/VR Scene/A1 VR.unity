@@ -1396,9 +1396,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1460826194}
     m_Modifications:
+    - target: {fileID: 850876575811284365, guid: 085a08379fc27ff4a97814747b8aeb21, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3877421027488451871, guid: 085a08379fc27ff4a97814747b8aeb21, type: 3}
       propertyPath: m_Name
       value: (Prb)DiningChair
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877421027488451871, guid: 085a08379fc27ff4a97814747b8aeb21, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4504880889509189541, guid: 085a08379fc27ff4a97814747b8aeb21, type: 3}
       propertyPath: m_LocalScale.x
@@ -10339,7 +10347,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: A1_Chaos
+          m_StringArgument: A1_Chaos VR
           m_BoolArgument: 0
         m_CallState: 2
   onPrimaryInteractLift:
@@ -11895,7 +11903,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d58c4e9d6511b2c4d999580c0792f188, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayAndTrigger
-  myAudioSource: {fileID: 770034793}
+  myAudioSource: {fileID: 1336347943}
   myMonologue: {fileID: 8300000, guid: 1083e02ef92910743a8aa10e84c1f460, type: 3}
   onAudioFinished:
     m_PersistentCalls:
@@ -12329,9 +12337,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::VRScreenFade
   fadeRenderer: {fileID: 908954846}
   startFadeMode: 1
-  openWaitTime: 1
-  openFadeTime: 3
-  openTargetAlpha: 0
+  openWaitTime: 3
+  openFadeTime: 5
+  openTargetAlpha: 0.2
+  fullyOpenWaitTime: 0
+  fullyOpenFadeTime: 0
   closeWaitTime: 0
   closeFadeTime: 2
   closeTargetAlpha: 1
@@ -23539,7 +23549,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d58c4e9d6511b2c4d999580c0792f188, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayAndTrigger
-  myAudioSource: {fileID: 770034793}
+  myAudioSource: {fileID: 1336347943}
   myMonologue: {fileID: 8300000, guid: 72861560017fb99498ce153fa4dff97e, type: 3}
   onAudioFinished:
     m_PersistentCalls:
@@ -26403,10 +26413,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 379891753}
-        m_TargetAssemblyTypeName: FadeToBlack, Assembly-CSharp
-        m_MethodName: set_enabled
-        m_Mode: 6
+      - m_Target: {fileID: 908954849}
+        m_TargetAssemblyTypeName: VRScreenFade, Assembly-CSharp
+        m_MethodName: FadeToClear
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -26657,7 +26667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d58c4e9d6511b2c4d999580c0792f188, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayAndTrigger
-  myAudioSource: {fileID: 770034793}
+  myAudioSource: {fileID: 1336347943}
   myMonologue: {fileID: 8300000, guid: bdb0e57ea0c9aed4db6f1dd732abd7a4, type: 3}
   onAudioFinished:
     m_PersistentCalls:
