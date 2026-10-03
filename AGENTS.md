@@ -2,7 +2,7 @@
 - Project name: DDES9903_Peter-Qin
 - Unity version: Unity 6000.3.8f1
 - Active game object:
-  - Name: VR Fade Sphere
-  - Tag: Untagged
-  - Layer: Ignore Raycast
+  - Name: Main Camera
+  - Tag: MainCamera
+  - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->
