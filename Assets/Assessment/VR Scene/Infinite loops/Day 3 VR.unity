@@ -555,7 +555,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Chase_Stop_Chase
   AI: {fileID: 22651416}
-  target1: {fileID: 770034792}
+  target1: {fileID: 1336347944}
   stopDistance: 4
   onArrive:
     m_PersistentCalls:
@@ -9154,7 +9154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Chase_Stop_Chase
   AI: {fileID: 712193737}
-  target1: {fileID: 770034792}
+  target1: {fileID: 1336347944}
   stopDistance: 4
   onArrive:
     m_PersistentCalls:
@@ -10924,81 +10924,9 @@ MonoBehaviour:
   onPrimaryInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 983241010}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Pick Up
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 983241016}
-        m_TargetAssemblyTypeName: UnityEngine.MeshRenderer, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Pick Up
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1524041786}
-        m_TargetAssemblyTypeName: UnityEngine.MeshRenderer, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Pick Up
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 895930540}
-        m_TargetAssemblyTypeName: PlayAndTrigger, Assembly-CSharp
-        m_MethodName: StartPlaying
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 785073401}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 983241018}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: set_mute
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Pick Up
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 983241018}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
+      - m_Target: {fileID: 785073408}
+        m_TargetAssemblyTypeName: RunOnce, Assembly-CSharp
+        m_MethodName: TriggerAction
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11006,115 +10934,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Pick Up
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1569784553}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1116921132}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
           m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1514434319}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Pick Up
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1524041784}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Pick Up
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1997131623}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Pick Up
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 895930541}
-        m_TargetAssemblyTypeName: TextReveal, Assembly-CSharp
-        m_MethodName: StartTypewriterEffect
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Pick Up
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1075856537}
-        m_TargetAssemblyTypeName: UnityEngine.BoxCollider, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Pick Up
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1458651183}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Pick Up
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1711426679}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Pick Up
-          m_BoolArgument: 0
         m_CallState: 2
   onPrimaryInteractLift:
     m_PersistentCalls:
@@ -11385,6 +11205,213 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1200479850698643670, guid: 8a969761362588d4a8fa1f00575f6640, type: 3}
   m_PrefabInstance: {fileID: 899910277}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &785073408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785073390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e1be1d30c0efe24bbf53d42992b96a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RunOnce
+  actionsToDoOnce:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 983241010}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Pick Up
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 983241016}
+        m_TargetAssemblyTypeName: UnityEngine.MeshRenderer, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Pick Up
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1524041786}
+        m_TargetAssemblyTypeName: UnityEngine.MeshRenderer, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Pick Up
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 895930540}
+        m_TargetAssemblyTypeName: PlayAndTrigger, Assembly-CSharp
+        m_MethodName: StartPlaying
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 785073401}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 983241018}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: set_mute
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Pick Up
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 983241018}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Pick Up
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1569784553}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1116921132}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1514434319}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Pick Up
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1524041784}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Pick Up
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1997131623}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Pick Up
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 895930541}
+        m_TargetAssemblyTypeName: TextReveal, Assembly-CSharp
+        m_MethodName: StartTypewriterEffect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Pick Up
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1075856537}
+        m_TargetAssemblyTypeName: UnityEngine.BoxCollider, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Pick Up
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1458651183}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Pick Up
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1711426679}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Pick Up
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &785373920
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12577,7 +12604,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d58c4e9d6511b2c4d999580c0792f188, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayAndTrigger
-  myAudioSource: {fileID: 770034793}
+  myAudioSource: {fileID: 1336347943}
   myMonologue: {fileID: 8300000, guid: b54c8ab3c6fdd5e48823e33235641d08, type: 3}
   onAudioFinished:
     m_PersistentCalls:
@@ -12776,6 +12803,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5039226909874435091, guid: 8a969761362588d4a8fa1f00575f6640, type: 3}
       insertIndex: -1
       addedObject: {fileID: 785073404}
+    - targetCorrespondingSourceObject: {fileID: 5039226909874435091, guid: 8a969761362588d4a8fa1f00575f6640, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 785073408}
   m_SourcePrefab: {fileID: 100100000, guid: 8a969761362588d4a8fa1f00575f6640, type: 3}
 --- !u!1 &901737310
 GameObject:
@@ -12914,6 +12944,119 @@ MonoBehaviour:
   rotationProbability: 0.155
   maxRotationAngle: 20
   flickerProbability: 0.412
+--- !u!1 &908954844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 908954848}
+  - component: {fileID: 908954847}
+  - component: {fileID: 908954846}
+  - component: {fileID: 908954849}
+  m_Layer: 2
+  m_Name: VR Fade Sphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &908954846
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908954844}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 32223dd058e612140b9db439269f7037, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &908954847
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908954844}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &908954848
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908954844}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.9238795, z: -0, w: 0.38268366}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1336347945}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &908954849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908954844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 127fafb30c287e74392b0357877df5dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRScreenFade
+  fadeRenderer: {fileID: 908954846}
+  startFadeMode: 1
+  openWaitTime: 3
+  openFadeTime: 5
+  openTargetAlpha: 0
+  fullyOpenWaitTime: 0
+  fullyOpenFadeTime: 0
+  closeWaitTime: 0
+  closeFadeTime: 4
+  closeTargetAlpha: 1
 --- !u!1001 &917804269
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17625,7 +17768,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Chase_Stop_Chase
   AI: {fileID: 1257356248}
-  target1: {fileID: 770034792}
+  target1: {fileID: 1336347944}
   stopDistance: 4
   onArrive:
     m_PersistentCalls:
@@ -18292,7 +18435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Chase_Stop_Chase
   AI: {fileID: 1313012896}
-  target1: {fileID: 770034792}
+  target1: {fileID: 1336347944}
   stopDistance: 4
   onArrive:
     m_PersistentCalls:
@@ -18723,6 +18866,10 @@ PrefabInstance:
       propertyPath: m_Positions.Array.data[1].z
       value: -1.9794672
       objectReference: {fileID: 0}
+    - target: {fileID: 2788867334538042064, guid: e87cef3963df1f7429b21f7e72d8578f, type: 3}
+      propertyPath: m_RenderPostProcessing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6750967406514487558, guid: e87cef3963df1f7429b21f7e72d8578f, type: 3}
       propertyPath: m_Positions.Array.data[0].x
       value: -8.204
@@ -18753,7 +18900,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 8427403763577619349, guid: e87cef3963df1f7429b21f7e72d8578f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 908954848}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 9139598363385987797, guid: e87cef3963df1f7429b21f7e72d8578f, type: 3}
       insertIndex: -1
@@ -18953,6 +19103,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!4 &1336347944 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 625251340729790811, guid: e87cef3963df1f7429b21f7e72d8578f, type: 3}
+  m_PrefabInstance: {fileID: 1336347940}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1336347945 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8427403763577619349, guid: e87cef3963df1f7429b21f7e72d8578f, type: 3}
+  m_PrefabInstance: {fileID: 1336347940}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1338418187
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19143,7 +19303,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: ALL Black
+          m_StringArgument: ALL Black VR
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1361465875
@@ -19320,10 +19480,10 @@ MonoBehaviour:
   actionsToDoOnce:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 379891755}
-        m_TargetAssemblyTypeName: Fade_to_other_colour, Assembly-CSharp
-        m_MethodName: set_enabled
-        m_Mode: 6
+      - m_Target: {fileID: 908954849}
+        m_TargetAssemblyTypeName: VRScreenFade, Assembly-CSharp
+        m_MethodName: FadeToBlack
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -24577,10 +24737,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 379891754}
-        m_TargetAssemblyTypeName: Fade_to_other_colour, Assembly-CSharp
-        m_MethodName: set_enabled
-        m_Mode: 6
+      - m_Target: {fileID: 908954849}
+        m_TargetAssemblyTypeName: VRScreenFade, Assembly-CSharp
+        m_MethodName: FadeToWhite
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -24772,7 +24932,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Survive
+          m_StringArgument: Survive VR
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &1758885744
@@ -30963,7 +31123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Chase_Stop_Chase
   AI: {fileID: 2081597909}
-  target1: {fileID: 770034792}
+  target1: {fileID: 1336347944}
   stopDistance: 4
   onArrive:
     m_PersistentCalls:

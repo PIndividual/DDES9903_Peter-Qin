@@ -12022,7 +12022,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 770034793}
+      - m_Target: {fileID: 1336347943}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: PlayOneShot
         m_Mode: 2
@@ -14669,7 +14669,7 @@ MonoBehaviour:
   onPrimaryInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 770034793}
+      - m_Target: {fileID: 1336347943}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Stop
         m_Mode: 1
@@ -16910,6 +16910,10 @@ PrefabInstance:
     - target: {fileID: 2181970833112330144, guid: e87cef3963df1f7429b21f7e72d8578f, type: 3}
       propertyPath: m_Positions.Array.data[1].z
       value: -1.9794672
+      objectReference: {fileID: 0}
+    - target: {fileID: 2788867334538042064, guid: e87cef3963df1f7429b21f7e72d8578f, type: 3}
+      propertyPath: m_RenderPostProcessing
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6750967406514487558, guid: e87cef3963df1f7429b21f7e72d8578f, type: 3}
       propertyPath: m_Positions.Array.data[0].x
@@ -27756,7 +27760,7 @@ MonoBehaviour:
   onCountdownFinished:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 770034793}
+      - m_Target: {fileID: 1336347943}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: PlayOneShot
         m_Mode: 2
@@ -27876,7 +27880,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d58c4e9d6511b2c4d999580c0792f188, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayAndTrigger
-  myAudioSource: {fileID: 770034793}
+  myAudioSource: {fileID: 1336347943}
   myMonologue: {fileID: 8300000, guid: ba3a933f6968b8745995dd7a303805f7, type: 3}
   onAudioFinished:
     m_PersistentCalls:

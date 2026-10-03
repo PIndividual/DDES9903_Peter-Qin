@@ -7283,6 +7283,10 @@ PrefabInstance:
       propertyPath: m_Positions.Array.data[1].z
       value: -1.263
       objectReference: {fileID: 0}
+    - target: {fileID: 2788867334538042064, guid: e87cef3963df1f7429b21f7e72d8578f, type: 3}
+      propertyPath: m_RenderPostProcessing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6750967406514487558, guid: e87cef3963df1f7429b21f7e72d8578f, type: 3}
       propertyPath: m_Positions.Array.data[0].x
       value: -1.227
