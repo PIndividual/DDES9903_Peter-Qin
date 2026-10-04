@@ -56,6 +56,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Assessment/VR Scene/Survive/Survive VR.unity
     guid: 2a28a2a2de6e3d24ab9adb3a464459dc
+  - enabled: 1
+    path: Assets/Assessment/VR Scene/Thanks VR.unity
+    guid: e93117d146e567a409d29a06a2120794
+  - enabled: 1
+    path: Assets/Assessment/VR Scene/Thanks2 VR.unity
+    guid: 7c9c8d73dafa5c44b8b894bcdfd32b1e
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 3c28928f4ba463b408fa3dad31f078ec, type: 2}

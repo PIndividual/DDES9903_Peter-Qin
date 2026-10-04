@@ -24612,6 +24612,7 @@ GameObject:
   - component: {fileID: 1043030296}
   - component: {fileID: 1043030295}
   - component: {fileID: 1043030300}
+  - component: {fileID: 1043030301}
   m_Layer: 0
   m_Name: Monologue 9
   m_TagString: Untagged
@@ -24733,16 +24734,16 @@ MonoBehaviour:
   onAudioFinished:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1043030300}
-        m_TargetAssemblyTypeName: SimplyQUIT, Assembly-CSharp
-        m_MethodName: QuitGame
-        m_Mode: 1
+      - m_Target: {fileID: 1043030301}
+        m_TargetAssemblyTypeName: GenUtils, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Thanks2 VR
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!82 &1043030299
@@ -24854,6 +24855,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94be558d93c942f439f1c32bd3be75be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SimplyQUIT
+--- !u!114 &1043030301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043030293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 487303e310a923b458e90be31f27c04d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GenUtils
 --- !u!1001 &1104450866
 PrefabInstance:
   m_ObjectHideFlags: 0
